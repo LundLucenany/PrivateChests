@@ -1,3 +1,3 @@
 # PrivateChests
-Make Your chests private
+Make Your chests private.
 Auf Deutsch
