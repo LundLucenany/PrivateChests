@@ -1,0 +1,22 @@
+name: Private-chest
+version: '${project.version}'
+main: de.lundlucenanny9.privatechest.Privatechest
+api-version: 1.19
+authors: [ LundLucenany9 ]
+description: Makes your chests private.
+commands:
+  trust:
+    description: Trusts/Untrusts a player.
+    usage: /trust <Player>
+    permission-message: You are not allowed to trust/untrust people.
+    permission: privatechest.trust
+  chestoverride:
+    description: Ignores the owner of chests.
+    usage: /chestoverride
+    permission-message: You're not allowed to use this command.
+    permission: privatechest.override
+permissions:
+  privatechest.trust:
+    default: true
+  privatechest.override:
+    default: op

@@ -1,0 +1,8 @@
+protected_blocks: ["CHEST"]
+messages:
+  place: Du hast erfolgreich eine Truhe plaziert.
+  break: Du hast eine Truhe abgebaut.
+  trust: Du hast $PLAYER$ getrustet.
+  untrust: Du hast $PLAYER$ destrustet.
+  tooLessArguments: Der Befehl erfordert mehr Argumente!
+  playerNotOnline: Dieser Spieler ist gerade nicht online!
